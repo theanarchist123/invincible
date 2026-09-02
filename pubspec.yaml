@@ -1,0 +1,30 @@
+name: invincible
+description: "Invincible — The ectomorph gym companion that builds you up, never tears you down."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.4
+  uuid: ^4.5.1
+  circle_nav_bar: ^2.2.0
+  video_player: ^2.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
